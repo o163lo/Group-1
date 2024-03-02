@@ -1,4 +1,3 @@
-
 class FoodGift {
   String title;
   String ImageUrl;
@@ -7,23 +6,23 @@ class FoodGift {
 
 List<FoodGift> FoodGifts = [
   FoodGift(
-      title: "1.シンガポールではガムの持ち込みが出来ない",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "1.チリクラブ",
+      ImageUrl:
+          "https://www.mapple.net/global/cms/wp-content/uploads/2017/08/1443935.jpg"),
   FoodGift(
-      title: "2.シンガポールではあれやったら罰金",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "2.パイナップルタルト",
+      ImageUrl:
+          "https://ak-d.tripcdn.com/images/0352l12000bskw21q1B04_C_568_320_Q50.jpg_.webp"),
   FoodGift(
-      title: "3.シンガポールでそれはまずい",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "3.マーライオンチョコ",
+      ImageUrl:
+          "https://dimg04.c-ctrip.com/images/0M76t12000bv4bsn6FC20.png_.webp"),
   FoodGift(
-      title: "4.シンガポールでは危ない",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "4.ティラミス",
+      ImageUrl:
+          "https://dimg04.c-ctrip.com/images/0M72812000bv4c12t7D10.png_.webp"),
   FoodGift(
-      title: "5.シンガポールでは常識や",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "5.紅茶・マカロン",
+      ImageUrl:
+          "https://dimg04.c-ctrip.com/images/0M74j12000bv4buvn8E3B.png_.webp"),
 ];

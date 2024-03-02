@@ -1,44 +1,33 @@
-
 class Gift {
   String title;
   String description;
   String ImageUrl;
-  
-  Gift({required this.title, required this.description,required this.ImageUrl});
+
+  Gift(
+      {required this.title, required this.description, required this.ImageUrl});
 }
 
 List<Gift> Gifts = [
   Gift(
-      title: "1.シンガポールではガムの持ち込みが出来ない",
-      description: """シンガポールでは1992年からチューインガムの製造販売と輸入が禁止となりました。その理由はというと、MRTのドアにガムが張り付けられたことによりセンサーが反応しなくなり電車が遅延したからなのだそうです。
-その後2004年に若干規制が緩和されたのですが、2016年現在も薬局が販売する医療用ガムのみ認められています。
-もし、こっそり持ち込んだガムが見つかってしまった場合は最大1万ドルの罰金だそうです！""",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
-  Gift(
-      title: "2.シンガポールではあれやったら罰金",
+      title: "1.多民族ならではの食文化",
       description:
-          """シンガポールでは禁止されてますみんなもぜひきをつけましょう""",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+          """多民族が暮くらすシンガポールでは、中国料理・インド料理・マレー料理の本格的な味を楽しめますが、マレー料理と中国料理が融合した「プラナカン料理（ニョニャ料理）」が伝統的な料理として有名です""",
+      ImageUrl:
+          "https://www.meiji.co.jp/meiji-shokuiku/worldculture/images/country/contents_image_singapore1_1_1.jpg"),
   Gift(
-      title: "3.シンガポールでそれはまずい",
+      title: "2.主食",
+      description: """シンガポールでの主食は米と麺で、日本とは違い細長いインディカ米が使われています""",
+      ImageUrl: "https://cdn.sbfoods.co.jp/recipes/04283_l.jpg"),
+  Gift(
+      title: "3.麺の種類が多い",
       description:
-          """シンガポールでは禁止されてますみんなもぜひきをつけましょう""",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+          """黄色くて丸い「ミー」とはば広い「ミーポック」、白くてはば広い「バンミエン」、はば広の米麺「クイティヤオ」、細い米麺「ビーフン」などたくさんあります。シンガポールの国民食ともいえる麺料理は「ワンタンミー」です。ワンタンミーは、スープありとスープなしがありますが、シンガポールではスープなしの麺にワンタンスープが別で出てくる食べ方が多いです""",
+      ImageUrl:
+          "https://cdn-ak.f.st-hatena.com/images/fotolife/l/lioncity/20180329/20180329173736.png"),
   Gift(
-      title: "4.シンガポールでは危ない",
-      description: """シンガポールでは禁止されてますみんなもぜひきをつけましょう""",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
-  Gift(
-      title: "5.シンガポールでは常識や",
+      title: "4.行事食",
       description:
-          """シンガポールでは1992年からチューインガムの製造販売と輸入が禁止となりました。その理由はというと、MRTのドアにガムが張り付けられたことによりセンサーが反応しなくなり電車が遅延したからなのだそうです。
-その後2004年に若干規制が緩和されたのですが、2016年現在も薬局が販売する医療用ガムのみ認められています。
-もし、こっそり持ち込んだガムが見つかってしまった場合は最大1万ドルの罰金だそうです！""",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
-
+          """シンガポールのお正月は旧正月（チャイニーズ・ニューイヤー）といい、旧暦のお正月で毎年日にちが変わります。旧正月には、中華系の人たちは「魚生（ユーシェン）」というお刺身のサラダを食べる習慣があります。魚生はシンガポールで生まれた料理で、元々はサラダとして食べられていましたが、縁起のいい料理とされ、徐々に旧正月に食べる料理となりました""",
+      ImageUrl:
+          "https://www.meiji.co.jp/meiji-shokuiku/worldculture/images/country/contents_image_singapore1_4_1.jpg"),
 ];

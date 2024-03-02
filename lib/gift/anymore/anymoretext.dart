@@ -1,30 +1,28 @@
-
 class AnymoreGift {
   String title;
   String ImageUrl;
-  AnymoreGift({required this.title,required this.ImageUrl});
+  AnymoreGift({required this.title, required this.ImageUrl});
 }
 
 List<AnymoreGift> AnymoreGifts = [
   AnymoreGift(
-      title: "1.シンガポールではガムの持ち込みが出来ない",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "1.プラナカンの雑貨",
+      ImageUrl:
+          "https://dimg04.c-ctrip.com/images/0M72b12000bv4c1gr1A56.png_.webp"),
   AnymoreGift(
-      title: "2.シンガポールではあれやったら罰金",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "2.アーユルヴェーダ石鹸",
+      ImageUrl:
+          "https://dimg04.c-ctrip.com/images/0M73j12000bv4bxvf1E71.png_.webp"),
   AnymoreGift(
-      title: "3.シンガポールでそれはまずい",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "3.ジャマル・カズラ・アロマティクスの香水瓶",
+      ImageUrl:
+          "https://dimg04.c-ctrip.com/images/0M70512000bv4bsay0244.png_.webp"),
   AnymoreGift(
-      title: "4.シンガポールでは危ない",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
+      title: "4.シンガポール国立博物館グッズ",
+      ImageUrl:
+          "https://dimg04.c-ctrip.com/images/0M74d12000bv4bwfsE93D.png_.webp"),
   AnymoreGift(
-      title: "5.シンガポールでは常識や",
-      ImageUrl: "https://dol.ismcdn.jp/mwimgs/f/2/-/img_f27040e32ffa1592ea144cd3e329e9b1217436.jpg"
-      ),
-
+      title: "5.スーパーママの陶器",
+      ImageUrl:
+          "https://livedoor.blogimg.jp/singaporeclub/imgs/7/f/7f9864b4-s.jpg"),
 ];

@@ -7,25 +7,21 @@ class AnymoreGiftPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('お土産'),
+      appBar: AppBar(
+        title: const Text('お土産'),
         backgroundColor: Color.fromARGB(238, 252, 235, 254),
-        
-        ),
-        body: Scrollbar(
-            thumbVisibility: true,
-            thickness: 10,
-            radius: Radius.circular(16),
-            child: SingleChildScrollView(
-              child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                  const AnymoreGiftListView(),
-                  
-                  ]),
-            )
-            ),
-        );
+      ),
+      body: Scrollbar(
+          thumbVisibility: true,
+          thickness: 10,
+          radius: Radius.circular(16),
+          child: SingleChildScrollView(
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              const AnymoreGiftListView(),
+            ]),
+          )),
+    );
   }
 }
 
@@ -43,15 +39,12 @@ class AnymoreGiftText extends StatelessWidget {
     return Expanded(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        
-        children: [
-            AnymoreGiftTitleText(title),
-            AnymoreGiftUrl(imageUrl)
-        ],
+        children: [AnymoreGiftTitleText(title), AnymoreGiftUrl(imageUrl)],
       ),
     );
   }
 }
+
 //一覧表示
 class AnymoreGiftListView extends StatelessWidget {
   const AnymoreGiftListView({super.key});
@@ -72,7 +65,6 @@ class AnymoreGiftListView extends StatelessWidget {
               imageUrl: AnymoreGift.ImageUrl,
             ),
           );
-          
         },
       ),
     );
@@ -87,20 +79,21 @@ class AnymoreGiftTitleText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        color: Color.fromARGB(238, 252, 235, 254),
-                      ),
-                      padding: const EdgeInsets.all(8.0),
-                      width: 500,
-                      margin: const EdgeInsets.all(8.0),
-                      child: Text(title,
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 15,
-                        ),
-                      ),
-                      );
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(8),
+        color: Color.fromARGB(238, 252, 235, 254),
+      ),
+      padding: const EdgeInsets.all(8.0),
+      width: 500,
+      margin: const EdgeInsets.all(8.0),
+      child: Text(
+        title,
+        style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 15,
+        ),
+      ),
+    );
   }
 }
 
@@ -116,8 +109,7 @@ class AnymoreGiftUrl extends StatelessWidget {
       child: Image.network(
         imageUrl,
         fit: BoxFit.cover,
-        ),
+      ),
     );
-    
   }
 }
